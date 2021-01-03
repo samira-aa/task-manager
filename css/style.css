@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid rgba(105, 90, 205, 0.445);
+    padding: 30px;
+}
+
+.wrapper h1 {
+    margin-bottom: 30px;
+    color: rgba(105, 90, 205, 0.993);
+}
+
+.wrapper .make-task {
+    width: 100%;
+}
+
+.wrapper .make-task .form-task {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.wrapper .make-task .form-task .input-task {
+    padding: 5px 7px;
+    flex-grow: 1;
+    border: 1px solid gray;
+}
+
+.wrapper .make-task .form-task .input-task:focus {
+    outline: 0;
+}
+
+.wrapper .make-task .form-task .btn-input-task {
+    padding: 5px 7px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.wrapper .make-task .form-task .btn-input-task:hover {
+    background-color: rgba(105, 90, 205, 0.445);
+}
+
+.wrapper .filter-task {
+    width: 100%;
+    background-color: rgba(105, 90, 205, 0.445);
+    padding: 10px;
+}
+
+.wrapper .filter-task .filter-task-name {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    padding: 3px;
+    margin-bottom: 30px;
+}
+
+.wrapper .filter-task .filter-task-name:focus {
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.wrapper .filter-task ul {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.wrapper .filter-task ul li {
+    display: flex;
+    align-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.137);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.wrapper .filter-task ul li span {
+    display: block;
+}
+
+.wrapper .filter-task ul li i {
+    display: block;
+    font-size: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.wrapper .filter-task .clear-tasks {
+    padding: 5px 7px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.wrapper .filter-task .clear-tasks:hover {
+    background-color: rgba(128, 128, 128, 0.493);
+    color: white;
+}
